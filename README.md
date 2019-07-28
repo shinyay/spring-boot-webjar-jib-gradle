@@ -16,24 +16,6 @@ This project is created which is based on [docker-maven-spring-boot-template](ht
 
 ## Usage
 
-### Build DockerImage
-
-```
-$ ./mvnw clean compile jib:dockerBuild
-```
-
-### Push DockerImage into Docker Hub
-
-```
-./mvnw compile jib:build -Djib.to.auth.username=$DOCKERHUB_USER -Djib.to.auth.password=$DOCKERHUB_PASSWORD
-```
-
-### Run Docker Container
-
-```
-$ docker run --rm -p 8080:8080 -v (pwd)/log:/app/log shinyay/springboot-webjar:jib
-```
-
 ## Installation
 
 ## Licence
