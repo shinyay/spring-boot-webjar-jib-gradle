@@ -5,7 +5,7 @@ plugins {
     id("io.spring.dependency-management") version "1.0.7.RELEASE"
     kotlin("jvm") version "1.2.71"
     kotlin("plugin.spring") version "1.2.71"
-    id("com.google.cloud.tools.jib") version "1.4.0"
+    id("com.google.cloud.tools.jib") version "1.8.0"
 }
 
 group = "io.pivotal.shinyay"
