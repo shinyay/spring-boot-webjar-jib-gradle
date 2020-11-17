@@ -7,6 +7,8 @@ This project is created which is based on [docker-maven-spring-boot-template](ht
 
 ## Demo
 
+![jib-demo](https://user-images.githubusercontent.com/3072734/99399551-2d93f000-2929-11eb-976b-d995af86057f.gif)
+
 ## Features
 
 - feature:1
