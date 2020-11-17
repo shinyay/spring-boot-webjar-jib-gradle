@@ -22,7 +22,15 @@ $ ./gradlew clean jib
 
 ## Usage
 
+./gradlew <JIB_TASK>
 
+```
+Jib tasks
+---------
+jib - Builds a container image to a registry.
+jibBuildTar - Builds a container image to a tarball.
+jibDockerBuild - Builds a container image to a Docker daemon.
+```
 
 ## Installation
 
