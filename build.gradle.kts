@@ -5,7 +5,7 @@ plugins {
     id("io.spring.dependency-management") version "1.0.9.RELEASE"
     kotlin("jvm") version "1.3.71"
     kotlin("plugin.spring") version "1.3.71"
-    id("com.google.cloud.tools.jib") version "2.1.0"
+    id("com.google.cloud.tools.jib") version "2.6.0"
 }
 
 group = "io.pivotal.shinyay"
@@ -35,9 +35,9 @@ tasks.withType<KotlinCompile> {
 }
 
 jib {
-    from {
-        image = "shinyay/adoptopenjdk11-minimum"
-    }
+//    from {
+//        image = "shinyay/adoptopenjdk11-minimum"
+//    }
     to {
         image = "registry.hub.docker.com/shinyay/springboot-webjar:jib"
         tags = setOf("latest")
@@ -46,6 +46,6 @@ jib {
     }
     container {
         jvmFlags = mutableListOf("-Xms512m", "-Xdebug")
-        useCurrentTimestamp = true
+//        useCurrentTimestamp = true
     }
 }
