@@ -1,6 +1,6 @@
-# Name
+# Jib for Gradle Project Template
 
-
+Jib builds optimized Docker and OCI images for your Java applications without a Docker daemon.
 
 ## Description
 This project is created which is based on [docker-maven-spring-boot-template](https://github.com/shinyay/docker-maven-spring-boot-template)
