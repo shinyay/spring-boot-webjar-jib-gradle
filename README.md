@@ -45,6 +45,20 @@ jib {
 }
 ```
 
+### Configure Container Image
+
+|Property|Default|Description|
+|--------|-------|-----------|
+|format|`Docker`|`OCI` to build [OCI Container Image](https://opencontainers.org/)|
+
+```kotlin
+jib {
+    container {
+        format = "OCI"
+    }
+}
+```
+
 ## Demo
 
 ```
