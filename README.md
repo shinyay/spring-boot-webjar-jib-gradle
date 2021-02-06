@@ -3,7 +3,21 @@
 Jib builds optimized Docker and OCI images for your Java applications without a Docker daemon.
 
 ## Description
-This project is created which is based on [docker-maven-spring-boot-template](https://github.com/shinyay/docker-maven-spring-boot-template)
+This project bases on [docker-maven-spring-boot-template](https://github.com/shinyay/docker-maven-spring-boot-template)
+
+### Configure Repository to push
+- Docker Hub Registry
+- Google Container Registry
+
+#### Docker Hub Registry
+
+```shell script
+jib {
+    to {
+        image = "registry.hub.docker.com/<my-docker-id>>/my-app:1.0.0"
+    }
+}
+```
 
 ## Demo
 
