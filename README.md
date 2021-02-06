@@ -36,6 +36,14 @@ jib {
 }
 ```
 
+### Configure Base image
+```kotlin
+jib {
+    from {
+        image = "openjdk:11.0.10-jdk"
+    }
+}
+```
 
 ## Demo
 
