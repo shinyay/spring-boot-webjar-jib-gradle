@@ -18,6 +18,14 @@ jib {
     }
 }
 ```
+or
+```shell script
+jib {
+    to {
+        image = "<my-docker-id>>/my-app:1.0.0"
+    }
+}
+```
 
 ## Demo
 
