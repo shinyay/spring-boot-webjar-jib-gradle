@@ -32,6 +32,11 @@ jibBuildTar - Builds a container image to a tarball.
 jibDockerBuild - Builds a container image to a Docker daemon.
 ```
 
+### Use Jib as Gradle argument
+```shell script
+$ ./gradlew clean jib -Djib.to.image=gcr.io/(gcloud config get-value project)/shinyay-app:1.0.0
+```
+
 ## Installation
 
 ## References
