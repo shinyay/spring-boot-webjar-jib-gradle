@@ -11,7 +11,7 @@ This project bases on [docker-maven-spring-boot-template](https://github.com/shi
 
 #### Docker Hub Registry
 
-```shell script
+```kotlin
 jib {
     to {
         image = "registry.hub.docker.com/<my-docker-id>>/my-app:1.0.0"
@@ -19,13 +19,23 @@ jib {
 }
 ```
 or
-```shell script
+```kotlin
 jib {
     to {
         image = "<my-docker-id>>/my-app:1.0.0"
     }
 }
 ```
+
+#### Google Container Registry
+```kotlin
+jib {
+    to {
+        image = "gcr.io/<my-gcp-project>/my-app:1.0.0"
+    }
+}
+```
+
 
 ## Demo
 
