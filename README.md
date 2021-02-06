@@ -34,7 +34,7 @@ jibDockerBuild - Builds a container image to a Docker daemon.
 
 ### Use Jib as Gradle argument
 ```shell script
-$ ./gradlew clean jib -Djib.to.image=gcr.io/(gcloud config get-value project)/shinyay-app:1.0.0
+$ ./gradlew clean jib -Djib.to.image=gcr.io/(gcloud config get-value project)/my-app:1.0.0
 ```
 
 ## Installation
