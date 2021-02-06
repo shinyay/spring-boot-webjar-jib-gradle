@@ -35,6 +35,7 @@ jibDockerBuild - Builds a container image to a Docker daemon.
 ## Installation
 
 ## References
+- [Gradle plugins](https://plugins.gradle.org/plugin/com.google.cloud.tools.jib)
 
 ## Licence
 
